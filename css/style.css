@@ -58,7 +58,6 @@ header nav li .item-nav {
 }
 
 section {
-  display: grid;
   grid-template-columns: 1fr;
 }
 section div h2 {
@@ -146,7 +145,7 @@ footer img {
     width: 100%;
   }
 
-  .arte-mobile {
+  header .arte-mobile {
     display: block;
   }
 }
