@@ -68,7 +68,6 @@ header {
 }
 
 section {
-    display: grid;
     grid-template-columns: 1fr;
     div h2{
         color: #c28b65;
@@ -153,7 +152,7 @@ footer {
     .carousel{
         width: 100%;
     }
-    .arte-mobile{
+    header .arte-mobile{
         display: block;
     }
 }
