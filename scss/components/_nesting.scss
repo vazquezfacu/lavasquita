@@ -64,6 +64,9 @@ header {
 
         
         }
+        .arte-mobile {
+            display: none;
+        }
 
 }
 
@@ -101,6 +104,9 @@ section {
             width: 100%;
             height: 58vh;        
         }
+        .contacto-item{
+            text-decoration: underline;
+        }
         div{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -108,9 +114,6 @@ section {
         
         }
     }
-}
-.arte-mobile {
-    display: none;
 }
 footer {
     background-image: linear-gradient(hsl(0, 92%, 20%), #c28b65 );
