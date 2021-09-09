@@ -72,10 +72,12 @@ header {
 
 section {
     grid-template-columns: 1fr;
-    div h2{
+    div {
+        h2{
         color: #c28b65;
         padding: 10px;
         font-family: 'Times New Roman', Times, serif;
+        }
     }
     .container-img-nosotros{
         display: flex;
