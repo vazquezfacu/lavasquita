@@ -79,6 +79,19 @@ section img {
   width: 30%;
 }
 
+.productos .contenedor-carousel {
+  display: flex;
+  justify-content: center;
+}
+.productos .contenedor-carousel .carousel {
+  width: 50%;
+}
+@media (max-width: 1001px) {
+  .productos .contenedor-carousel .carousel {
+    width: 100%;
+  }
+}
+
 .contacto h2 {
   color: #c28b65;
   padding: 10px;

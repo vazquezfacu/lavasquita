@@ -91,7 +91,18 @@ section {
         
     }
 }
-
+.productos{
+    .contenedor-carousel{
+        display: flex;
+        justify-content: center;
+        .carousel{
+        width: 50%;
+            @media (max-width: 1001px) {
+                width: 100%;
+            }
+        }
+    }
+}
 .contacto {
     h2{
         color: #c28b65;
