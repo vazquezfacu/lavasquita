@@ -146,8 +146,8 @@ footer {
     }
     .grid-nav {
         display: grid;
-        width: 97%;
-        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        grid-template-columns: 1fr;
     }
     .item-nav{
         border: 6px outset #c28b65;
@@ -178,18 +178,36 @@ footer {
     .titulo{
         display: none;
     }
+    header {
+            .container-img-principal{
+                #img-principal {
+                justify-items: center;
+                width: 50%;
+            }
+        }
+        nav {
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            li {
+                font-size: 10px;
+            }
+        }
+    }
+    
     .arte-mobile {
         display: block;
         color: #c28b65;
         font-family: Conv_ShimesOne_Personal;
-        font-size: 70px;
+        font-size: 50px;
         padding: 10px;
         text-align: center;
     }
-    .grid-nav {
-        display: grid;
-        width: 97%;
-        grid-template-columns: 1fr;
+    .nosotros{
+        img {
+            display: none;
+        }
     }
 }
 
