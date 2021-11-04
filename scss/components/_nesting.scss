@@ -5,7 +5,7 @@ header {
         justify-content: center;
         #img-principal {
             justify-items: center;
-            width: 70%;
+            width: 30%;
         }
     }
     .grid-nav-responsive {
@@ -130,11 +130,9 @@ section {
 }
 footer {
     background-image: linear-gradient(hsl(0, 92%, 20%), #c28b65 );
-    margin-top: 20px;
     color: black;
     height: 50px;
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
 
@@ -197,4 +195,7 @@ footer {
 .contenedor-galeria {
     padding: 15px;
     border: 10px groove #c28b65;
+}
+.img-galeria {
+    margin: 7px;
 }
