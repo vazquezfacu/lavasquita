@@ -151,10 +151,9 @@ footer img {
     width: 100%;
     grid-template-columns: 1fr;
   }
-
-  .contacto-info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .contacto div .contacto-info {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .carousel {
