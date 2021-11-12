@@ -249,4 +249,11 @@ header .container-img-pres-mobile {
   }
 }
 
+a {
+  color: #c28b65;
+}
+a:hover {
+  color: #f1bc95;
+}
+
 /*# sourceMappingURL=style.css.map */

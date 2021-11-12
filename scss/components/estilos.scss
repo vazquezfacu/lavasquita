@@ -41,3 +41,10 @@ header{
         }
     }
 }
+a {
+    color: #c28b65;
+ &:hover {
+    color: #f1bc95;
+
+ }
+}
